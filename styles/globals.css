@@ -1,11 +1,20 @@
-body {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+html,body {
+  /* font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; */
 
-html,
-body {
+  font-family: Arial;
+  scroll-padding-top: 53px;
   background: #87ceeb;
   scroll-behavior: smooth;
+}
+
+
+main {
+  height: calc(100vh - 3rem);
 }
 
 @tailwind base;
