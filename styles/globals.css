@@ -3,15 +3,25 @@
   padding: 0;
   box-sizing: border-box;
 }
-html,body {
-  /* font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; */
 
-  font-family: Arial;
-  scroll-padding-top: 53px;
-  background: #87ceeb;
-  scroll-behavior: smooth;
+:root {
+  /* Your default theme */
+  --background: #fffaf2;
+  --foreground: black;
 }
 
+[data-theme="dark"] {
+  --background: black;
+  --foreground: white;
+}
+
+html,
+body {
+  font-family: Arial;
+  scroll-padding-top: 53px;
+  /* background: #fffaf2; */
+  scroll-behavior: smooth;
+}
 
 main {
   height: calc(100vh - 3rem);

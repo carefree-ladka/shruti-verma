@@ -1,4 +1,5 @@
 import Head from "next/head";
+import { Inter } from 'next/font/google'
 import { useRef } from "react";
 import About from "../components/About";
 import Events from "../components/Events";
@@ -8,7 +9,9 @@ import Hero from "../components/Hero";
 import Hobbies from "../components/Hobbies";
 import Reading from "../components/Reading";
 import Work from "../components/Work";
-import { motion } from 'framer-motion';
+import ToggleDark from "../components/ToggleDark";
+
+const inter = Inter({ subsets: ['latin'] })
 
 export default function Index() {
   const aboutRef = useRef("");
@@ -34,7 +37,7 @@ export default function Index() {
     gotoEvent,
   };
   return (
-    <div className=" text-back ">
+    <div className={`text-back ${inter.className}`} >
       <Head>
         <title>Shruti | Home</title>
         <link

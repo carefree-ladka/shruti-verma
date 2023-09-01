@@ -3,7 +3,7 @@ import React, { forwardRef } from "react";
 const Work = forwardRef(function ({ props }, ref) {
   return (
     <div className="mt-6" ref={ref}>
-      <h2 className="text-[1.8rem] font-mono font-medium text-h2 lg:text-[2.3rem] md:text-[2.3rem]">
+      <h2 className="text-[1.8rem] italic font-mono font-medium lg:text-[2rem] md:text-[2rem]">
         Work
       </h2>
       <p className="text-[1.15 rem] lg:text-lg md:text-lg">
