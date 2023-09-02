@@ -8,11 +8,11 @@ export default function Hero() {
         <div className="flex pt-5 flex-col justify-center items-center lg:flex lg:flex-row lg:justify-center lg:items-center md:flex md:flex-row md:justify-center md:items-center">
           <figure>
             <Image
-              src="/shruti2.jpg"
+              src="/shruti.png"
               height={170}
               width={170}
               alt="me"
-              className="object-contain rounded-full pointer-events-non"
+              className="object-contain rounded-full pointer-events-none select-none"
             />
             <figcaption>Me with a depressed teddy✨ </figcaption>
           </figure>
