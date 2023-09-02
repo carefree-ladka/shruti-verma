@@ -14,7 +14,7 @@ export default function Hero() {
               alt="me"
               className="object-contain rounded-full pointer-events-none select-none"
             />
-            <figcaption>Me with a depressed teddy✨ </figcaption>
+            <figcaption>Stuck between idk and idc✨ </figcaption>
           </figure>
           <div className="flex flex-col">
             <motion.div
